@@ -4,11 +4,15 @@ body{
     font-style: normal;
 }
 
-header {
+.header {
     display: block;
     width: 100%;
     height: 44px;
     background-color: #B73C58;
+}
+
+a, a:visited{
+    color: black;
 }
 
 @media only screen and (max-width: 3840px){
@@ -28,19 +32,16 @@ header {
 
     .form{
     display: flex;
-    position:absolute;
     flex-direction: column;
     align-items: flex-start;
 
+    margin-top: 162px;
     padding: 16px;
     gap: 16px;
     width:360px;
     height: 568px;
     background-color:#FDFDFD;
     border-radius:4px;
-    transform:translate(-50%, -50%);
-    top:50%;
-    left:50%;
     }
 }
 
@@ -65,6 +66,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
 
+    margin-top: 162px;
     padding: 16px;
     gap: 16px;
     width:360px;
@@ -98,6 +100,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
 
+    margin-top: 162px;
     padding: 16px;
     gap: 16px;
     width:360px;
@@ -196,7 +199,7 @@ li{
     left: 2%;
 }
 
-.form-h{
+.form-title{
     position: relative;
     left: 2%;
 }
@@ -246,17 +249,17 @@ li{
 }
 
 .reg-link{
-    position: absolute;
-    top: 103%;
-    
-    left: 20%;
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    margin-top: 24px;
+    text-align: center;
 }
 
 .container{
     margin: auto;
+    width:360px;
 }
 
 .main-head{
