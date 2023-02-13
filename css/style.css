@@ -224,7 +224,6 @@ li{
     border-radius: 4px;
     justify-content: flex-end;
     left: 16px;
-    
 }
 
 .form-label{
@@ -237,6 +236,7 @@ li{
 
 .form-title{
     position: relative;
+    margin-top: 0px;
     left: 16px;
 }
 
