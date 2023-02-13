@@ -203,7 +203,6 @@ li{
     text-decoration: none;
     color: black;
     box-sizing: border-box;
-    left: 16px;
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
@@ -223,7 +222,6 @@ li{
     border: 1px solid #828282;
     border-radius: 4px;
     justify-content: flex-end;
-    left: 16px;
 }
 
 .form-label{
@@ -231,18 +229,15 @@ li{
     font-weight: 600;
     font-size: 18px;    
     line-height: 24px;
-    left: 16px;
 }
 
 .form-title{
     position: relative;
     margin-top: 0px;
-    left: 16px;
 }
 
 .form-text{
     position: relative;
-    left: 16px;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -280,7 +275,6 @@ li{
     line-height: 20px;
     width: 300px;
     letter-spacing: 0.25px;
-    left: 16px;
 }
 
 .reg-link{
