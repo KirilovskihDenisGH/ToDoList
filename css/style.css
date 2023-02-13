@@ -32,6 +32,15 @@ a:visited{
         width: 24px;
     }
 
+    .search-input{
+        position: relative;
+        bottom: 2px;
+        padding: 4px 24px;
+        height: 20px;
+        border-radius: 4px;
+        border: none;
+    }
+
     .form{
     display: flex;
     flex-direction: column;
@@ -44,6 +53,20 @@ a:visited{
     height: 568px;
     background-color:#FDFDFD;
     border-radius:4px;
+    }
+
+    .search-button{
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 4px;
+        left: 16px;
+
+        border: none;
+        background-color: #ffffff00;
+        background: no-repeat;
+        background-image: url("../img/search.svg");
+        cursor: pointer;
     }
 }
 
@@ -68,6 +91,29 @@ a:visited{
         bottom: 8px;
         padding-right: 24px;
         width: 44px;
+    }
+
+    .search-input{
+        position: relative;
+        bottom: 1px;
+        padding: 4px 24px;
+        height: 25px;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .search-button{
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 8px;
+        left: 16px;
+
+        border: none;
+        background-color: #ffffff00;
+        background: no-repeat;
+        background-image: url("../img/search.svg");
+        cursor: pointer;
     }
 
     .form{
@@ -135,34 +181,11 @@ li{
     list-style: none;
 }
 
-.search-input{
-    position: relative;
-    bottom: 2px;
-    padding: 4px 24px;
-    height: 20px;
-    border-radius: 4px;
-    border: none;
-}
-
 .search-input::placeholder{
     position: relative;
     left: 22px;
     top: 1px;
     font-size: 16px;
-}
-
-.search-button{
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    top: 4px;
-    left: 16px;
-
-    border: none;
-    background-color: #ffffff00;
-    background: no-repeat;
-    background-image: url("../img/search.svg");
-    cursor: pointer;
 }
 
 .form-other{
