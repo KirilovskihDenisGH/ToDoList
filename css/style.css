@@ -526,6 +526,9 @@ li{
     padding-left: 10px;
 }
 
+.list-item-content{
+}
+
 .list-item:hover{
     background-color: #EFF1F3;
 }
@@ -548,16 +551,21 @@ li{
     letter-spacing: 0.5px;
 }
 
-.item-name{
+.item-title{
     width: 502px;
     margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
+
 .button-items{
     display: flex;
     flex-direction: row;
     align-content: flex-end;
     margin-left: 30px;
 }
+
 .button-item{
     margin-left: 20px;
 }
