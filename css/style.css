@@ -48,6 +48,10 @@ body{
         padding: 0px;
     }
 
+    .search-input[placeholder]{
+        padding-top: 4px;
+    }
+
     .search-button{
         box-sizing: border-box;
         border: none;
@@ -71,6 +75,22 @@ body{
         height: 568px;
         background-color:#FDFDFD;
         border-radius:4px;
+    }
+
+    .form input::placeholder{
+        color: black;
+    }
+
+    .container a{
+        color: black;
+    }
+
+    .container a:visited{
+        color: black;
+    }
+
+    .container a.form-text{
+        color:#B73C58;
     }
 }
 
@@ -88,7 +108,7 @@ body{
 
     .menu-list{
         display: flex;
-        gap: 24px;
+        gap: 34px;
         margin: 0px;
         margin-left: 40px;
         margin-right: 40px;
@@ -112,10 +132,14 @@ body{
 
     .search-input{
         box-sizing: border-box;
-        height: 32px;
+        height: 40px;
         border-radius: 4px;
         border: none;
         padding: 0px;
+    }
+
+    .search-input[placeholder]{
+        padding-top: 4px;
     }
 
     .search-button{
@@ -123,7 +147,7 @@ body{
         border: none;
         border-radius: 4px;
         background-color: #FDFDFD;
-        height: 32px;
+        height: 40px;
         width: 48px;
         cursor: pointer;
     }
@@ -142,6 +166,22 @@ body{
         background-color:#FDFDFD;
         border-radius:4px;
     }
+
+    .form input::placeholder{
+        color: black;
+    }
+
+    .container a{
+        color: black;
+    }
+
+    .container a:visited{
+        color: black;
+    }
+
+    .container a.form-text{
+        color:#B73C58;
+    }
 }
 
 @media only screen and (max-width: 375px){
@@ -150,7 +190,7 @@ body{
     }
 
     .site-menu{
-        height: 54px;
+        height: 44px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -167,12 +207,12 @@ body{
     }
 
     .menu-item{
-        height: 30px;
+        height: 24px;
     }
 
     .menu-item svg[width]{
-        height: 30px;
-        height: 30px;
+        height: 24px;
+        height: 24px;
     }
 
     .search-container{
@@ -186,6 +226,10 @@ body{
         border-radius: 4px;
         border: none;
         padding: 0px;
+    }
+
+    .search-input[placeholder]{
+        padding-top: 4px;
     }
 
     .search-button{
@@ -212,22 +256,30 @@ body{
         background-color:#FDFDFD;
         border-radius:4px;
     }
+
+    .form input::placeholder{
+        color: black;
+    }
+
+    .container a{
+        color: black;
+    }
+
+    .container a:visited{
+        color: black;
+    }
+
+    .container a.form-text{
+        color:#B73C58;
+    }
 }
 
 li{
     list-style: none;
 }
 
-.search-input::placeholder{
-    position: relative;
-    left: 22px;
-    top: 1px;
-    font-size: 16px;
-}
-
 .form-other{
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
     width: 328px;
@@ -241,7 +293,7 @@ li{
     color: black;
     box-sizing: border-box;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
 }
 
