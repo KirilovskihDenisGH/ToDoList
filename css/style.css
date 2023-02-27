@@ -57,6 +57,7 @@ body{
 
     .search-input[placeholder]{
         padding-top: 3px;
+        letter-spacing: 0.5px;
     }
 
     .search-button{
@@ -389,7 +390,7 @@ li{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    width: 300px;
+    max-width: 300px;
     letter-spacing: 0.25px;
 }
 
@@ -401,6 +402,7 @@ li{
     margin-top: 24px;
     text-align: center;
     width: 360px;
+    letter-spacing: 0.25px;
 }
 
 .container{
