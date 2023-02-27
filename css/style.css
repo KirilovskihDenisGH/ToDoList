@@ -2,11 +2,21 @@ body{
     background: #F4F6FC;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    padding: 0px;
+    margin: 0px;
 }
 
 @media only screen and (max-width: 3840px){
     .header {
         background-color: #B73C58;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main-container{
+        width: 668px;
+        margin: auto;
+        padding-top: 40px;
     }
 
     .site-menu{
@@ -20,8 +30,6 @@ body{
         display: flex;
         gap: 24px;
         margin: 0px;
-        margin-left: 40px;
-        margin-right: 40px;
         padding: 0px;
         align-items: center;
     }
@@ -31,7 +39,6 @@ body{
     }
 
     .menu-item svg[width]{
-        height: 24px;
         height: 24px;
     }
 
@@ -97,6 +104,14 @@ body{
 @media only screen and (max-width: 768px){
     .header {
         background-color: #B73C58;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main-container{
+        width: 668px;
+        margin: auto;
+        padding-top: 30px;
     }
 
     .site-menu{
@@ -110,8 +125,6 @@ body{
         display: flex;
         gap: 34px;
         margin: 0px;
-        margin-left: 40px;
-        margin-right: 40px;
         padding: 0px;
         align-items: center;
     }
@@ -121,7 +134,6 @@ body{
     }
 
     .menu-item svg[width]{
-        height: 30px;
         height: 30px;
     }
 
@@ -187,10 +199,18 @@ body{
 @media only screen and (max-width: 375px){
     .header {
         background-color: #B73C58;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    .main-container{
+        width: 668px;
+        margin: auto;
+        padding-top: 30px;
     }
 
     .site-menu{
-        height: 44px;
+        height: 54px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -200,8 +220,6 @@ body{
         display: flex;
         gap: 24px;
         margin: 0px;
-        margin-left: 40px;
-        margin-right: 40px;
         padding: 0px;
         align-items: center;
     }
@@ -212,12 +230,13 @@ body{
 
     .menu-item svg[width]{
         height: 24px;
-        height: 24px;
     }
 
     .search-container{
         display: grid;
-        grid-template-columns: 42px 184px;
+        grid-template-columns: 0px;
+        position: relative;
+        right: 10px;
     }
 
     .search-input{
@@ -226,20 +245,24 @@ body{
         border-radius: 4px;
         border: none;
         padding: 0px;
-    }
-
-    .search-input[placeholder]{
-        padding-top: 3px;
+        display: none;
     }
 
     .search-button{
         box-sizing: border-box;
         border: none;
         border-radius: 4px;
-        background-color: #FDFDFD;
-        height: 32px;
-        width: 48px;
-        cursor: pointer;
+        background-color: #B73C58;
+        cursor: pointer;      
+    }
+
+    .search-button svg{
+        width: 24px;
+        height: 24px;
+    }
+
+    .search-button path{ 
+        fill: #FDFDFD;
     }
 
     .form{
@@ -248,7 +271,7 @@ body{
         align-items: flex-start;
         box-sizing: border-box;
 
-        margin-top: 162px;
+        margin-top: 0px;
         padding: 16px;
         gap: 16px;
         width:360px;
@@ -295,6 +318,10 @@ li{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+}
+
+.login-svg{
+    margin-top: 6px;
 }
 
 .form-input{
@@ -379,12 +406,6 @@ li{
 .container{
     margin: auto;
     width: 360px;
-}
-
-.main-container{
-    width: 668px;
-    margin: auto;
-    padding-top: 40px;
 }
 
 .main-head{
@@ -514,6 +535,7 @@ li{
     flex-direction: column;
     gap: 16px;
 }
+
 .list-item{
     display: flex;
     height: 56px;
@@ -521,9 +543,6 @@ li{
     border-radius: 4px;
     align-items: center;
     padding-left: 10px;
-}
-
-.list-item-content{
 }
 
 .list-item:hover{
